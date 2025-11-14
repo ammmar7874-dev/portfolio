@@ -19,6 +19,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .header-container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-container {
+    padding: 0 1rem;
+  }
 }
 
 .logo {
@@ -216,7 +229,27 @@
   cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+  .header-controls {
+    gap: 0.75rem;
+  }
+
+  .control-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 768px) {
+  .header-container {
+    padding: 0 1rem;
+  }
+
   .nav {
     position: fixed;
     top: 70px;
@@ -228,6 +261,8 @@
     transform: translateX(-100%);
     transition: var(--transition);
     gap: 1.5rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   }
 
   .nav.open {
@@ -238,12 +273,61 @@
     display: block;
   }
 
+  .header-controls {
+    gap: 0.5rem;
+  }
+
+  .control-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 0.85rem;
+  }
+
   .theme-selector,
   .layout-selector,
   .overlay-selector {
     right: auto;
     left: 0;
     min-width: 250px;
+    max-width: calc(100vw - 2rem);
+  }
+
+  .logo {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0.75rem 0;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .control-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8rem;
+  }
+
+  .theme-selector,
+  .layout-selector,
+  .overlay-selector {
+    min-width: 200px;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .theme-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .theme-option {
+    padding: 0.5rem;
+    font-size: 0.8rem;
   }
 }
 

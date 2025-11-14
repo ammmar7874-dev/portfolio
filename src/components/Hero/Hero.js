@@ -32,10 +32,10 @@ const Hero = () => {
   };
 
   const socialLinks = [
-    { icon: FaGithub, url: 'https://github.com', label: 'GitHub' },
-    { icon: FaLinkedin, url: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: FaTwitter, url: 'https://twitter.com', label: 'Twitter' },
-    { icon: FaEnvelope, url: 'mailto:ammar@example.com', label: 'Email' },
+    { icon: FaGithub, url: 'https://github.com/hamzaarshad', label: 'GitHub' },
+    { icon: FaLinkedin, url: 'https://linkedin.com/in/hamza-arshad', label: 'LinkedIn' },
+    { icon: FaTwitter, url: 'https://twitter.com/hamzaarshad_dev', label: 'Twitter' },
+    { icon: FaEnvelope, url: 'mailto:hamza.arshad.dev@gmail.com', label: 'Email' },
   ];
 
   const getLayoutClass = () => {
@@ -68,8 +68,9 @@ const Hero = () => {
                 Flutter & React Developer
               </motion.h2>
               <motion.p className="hero-description" variants={itemVariants}>
-                Crafting beautiful and functional mobile and web applications with modern technologies.
-                Passionate about creating exceptional user experiences.
+                Based in Budapest, Hungary. Crafting beautiful and functional mobile and web applications 
+                with modern technologies. Passionate about creating exceptional user experiences and 
+                building innovative solutions.
               </motion.p>
               <motion.div className="hero-buttons" variants={itemVariants}>
                 <motion.a
@@ -161,8 +162,9 @@ const Hero = () => {
                 Flutter & React Developer
               </motion.h2>
               <motion.p className="hero-description" variants={itemVariants}>
-                Crafting beautiful and functional mobile and web applications with modern technologies.
-                Passionate about creating exceptional user experiences.
+                Based in Budapest, Hungary. Crafting beautiful and functional mobile and web applications 
+                with modern technologies. Passionate about creating exceptional user experiences and 
+                building innovative solutions.
               </motion.p>
               <motion.div className="hero-social" variants={itemVariants}>
                 {socialLinks.map((link, index) => (
@@ -239,8 +241,9 @@ const Hero = () => {
                 Flutter & React Developer
               </motion.h2>
               <motion.p className="hero-description" variants={itemVariants}>
-                Crafting beautiful and functional mobile and web applications with modern technologies.
-                Passionate about creating exceptional user experiences.
+                Based in Budapest, Hungary. Crafting beautiful and functional mobile and web applications 
+                with modern technologies. Passionate about creating exceptional user experiences and 
+                building innovative solutions.
               </motion.p>
               <motion.div className="hero-buttons" variants={itemVariants}>
                 <motion.a

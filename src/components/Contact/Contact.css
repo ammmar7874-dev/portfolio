@@ -217,19 +217,78 @@
   }
 }
 
+@media (max-width: 768px) {
+  .contact {
+    padding: 5rem 1.5rem;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .contact-content-layout1 {
+    gap: 3rem;
+  }
+}
+
 @media (max-width: 568px) {
   .contact {
     padding: 4rem 1rem;
   }
 
+  .section-title {
+    font-size: 2rem;
+  }
+
   .contact-info h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+  }
+
+  .contact-info > p {
+    font-size: 1rem;
   }
 
   .contact-info-item,
   .contact-info-item-horizontal {
     flex-direction: column;
     text-align: center;
+    padding: 1.25rem;
+  }
+
+  .contact-icon {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .contact-icon-large {
+    font-size: 2.5rem;
+  }
+
+  .contact-info-card {
+    padding: 1.5rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 0.875rem;
+    font-size: 0.95rem;
+  }
+
+  .submit-btn {
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .contact-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-info-item,
+  .contact-info-item-horizontal,
+  .contact-info-card {
+    padding: 1rem;
   }
 }
 

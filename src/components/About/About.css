@@ -220,6 +220,24 @@
   }
 }
 
+@media (max-width: 768px) {
+  .about {
+    padding: 5rem 1.5rem;
+  }
+
+  .section-header {
+    margin-bottom: 3rem;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.1rem;
+  }
+}
+
 @media (max-width: 568px) {
   .about {
     padding: 4rem 1rem;
@@ -229,14 +247,63 @@
     font-size: 2rem;
   }
 
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
   .about-features-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .about-text h3,
   .about-text-center h3,
   .about-text-full h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-text p,
+  .about-text-center p,
+  .about-text-full p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .feature-card,
+  .feature-card-large,
+  .feature-card-horizontal {
+    padding: 1.5rem;
+  }
+
+  .feature-icon,
+  .feature-icon-large {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .feature-card h4,
+  .feature-card-large h4,
+  .feature-content h4 {
+    font-size: 1.1rem;
+  }
+
+  .feature-card p,
+  .feature-card-large p,
+  .feature-content p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .section-title {
     font-size: 1.75rem;
+  }
+
+  .about-text h3,
+  .about-text-center h3,
+  .about-text-full h3 {
+    font-size: 1.3rem;
   }
 }
 

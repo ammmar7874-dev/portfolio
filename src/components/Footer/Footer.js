@@ -8,10 +8,10 @@ const Footer = () => {
   const { themeColors } = useTheme();
 
   const socialLinks = [
-    { icon: FaGithub, url: 'https://github.com', label: 'GitHub' },
-    { icon: FaLinkedin, url: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: FaTwitter, url: 'https://twitter.com', label: 'Twitter' },
-    { icon: FaEnvelope, url: 'mailto:ammar@example.com', label: 'Email' },
+    { icon: FaGithub, url: 'https://github.com/hamzaarshad', label: 'GitHub' },
+    { icon: FaLinkedin, url: 'https://linkedin.com/in/hamza-arshad', label: 'LinkedIn' },
+    { icon: FaTwitter, url: 'https://twitter.com/hamzaarshad_dev', label: 'Twitter' },
+    { icon: FaEnvelope, url: 'mailto:hamza.arshad.dev@gmail.com', label: 'Email' },
   ];
 
   return (
@@ -27,6 +27,7 @@ const Footer = () => {
           <div className="footer-section">
             <h3 style={{ color: themeColors.primary }}>Hamza Arshad</h3>
             <p>Flutter & React Developer</p>
+            <p>Budapest, Hungary</p>
             <p>Creating amazing digital experiences</p>
           </div>
           <div className="footer-section">

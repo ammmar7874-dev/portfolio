@@ -61,16 +61,17 @@ const About = () => {
             >
               <h3>I'm Hamza Arshad, a passionate Flutter & React Developer</h3>
               <p>
-                With expertise in both mobile and web development, I specialize in creating
-                beautiful, functional, and user-friendly applications. My journey in software
-                development has been driven by a passion for solving complex problems and
-                delivering exceptional user experiences.
+                Based in Budapest, Hungary, I'm a full-stack developer specializing in Flutter mobile 
+                applications and React web development. With over 3 years of experience in software 
+                development, I've worked on diverse projects ranging from e-commerce platforms to 
+                fintech applications, always focusing on creating intuitive and performant user experiences.
               </p>
               <p>
-                I stay up-to-date with the latest technologies and best practices, ensuring
-                that every project I work on is built with modern tools and methodologies.
-                Whether it's a mobile app or a web application, I bring creativity and
-                technical excellence to every project.
+                My expertise spans across cross-platform mobile development with Flutter and modern 
+                web applications using React. I'm passionate about clean code, best practices, and 
+                staying current with the latest technologies. When I'm not coding, you'll find me 
+                exploring Budapest's tech scene, contributing to open-source projects, or sharing 
+                knowledge with the developer community.
               </p>
             </motion.div>
             <motion.div
@@ -154,10 +155,11 @@ const About = () => {
             >
               <h3>I'm Hamza Arshad, a passionate Flutter & React Developer</h3>
               <p>
-                With expertise in both mobile and web development, I specialize in creating
-                beautiful, functional, and user-friendly applications. My journey in software
-                development has been driven by a passion for solving complex problems and
-                delivering exceptional user experiences.
+                Based in Budapest, Hungary, I'm a full-stack developer specializing in Flutter mobile 
+                applications and React web development. With over 3 years of experience, I've worked 
+                on diverse projects from e-commerce platforms to fintech applications, always focusing 
+                on creating intuitive and performant user experiences. I'm passionate about clean code, 
+                best practices, and contributing to the vibrant tech community in Budapest.
               </p>
             </motion.div>
           </div>
@@ -174,16 +176,17 @@ const About = () => {
             >
               <h3>I'm Hamza Arshad, a passionate Flutter & React Developer</h3>
               <p>
-                With expertise in both mobile and web development, I specialize in creating
-                beautiful, functional, and user-friendly applications. My journey in software
-                development has been driven by a passion for solving complex problems and
-                delivering exceptional user experiences.
+                Based in Budapest, Hungary, I'm a full-stack developer specializing in Flutter mobile 
+                applications and React web development. With over 3 years of experience in software 
+                development, I've worked on diverse projects ranging from e-commerce platforms to 
+                fintech applications, always focusing on creating intuitive and performant user experiences.
               </p>
               <p>
-                I stay up-to-date with the latest technologies and best practices, ensuring
-                that every project I work on is built with modern tools and methodologies.
-                Whether it's a mobile app or a web application, I bring creativity and
-                technical excellence to every project.
+                My expertise spans across cross-platform mobile development with Flutter and modern 
+                web applications using React. I'm passionate about clean code, best practices, and 
+                staying current with the latest technologies. When I'm not coding, you'll find me 
+                exploring Budapest's tech scene, contributing to open-source projects, or sharing 
+                knowledge with the developer community.
               </p>
             </motion.div>
             <motion.div

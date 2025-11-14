@@ -107,18 +107,72 @@
   transition: var(--transition);
 }
 
+@media (max-width: 768px) {
+  .welcome-overlay {
+    padding: 1rem;
+  }
+
+  .welcome-content {
+    padding: 2.5rem 2rem;
+  }
+
+  .welcome-title {
+    font-size: 2.2rem;
+  }
+}
+
 @media (max-width: 568px) {
   .welcome-content {
     padding: 2rem 1.5rem;
   }
 
   .welcome-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
+  }
+
+  .welcome-description {
+    font-size: 1rem;
+  }
+
+  .welcome-icon {
+    font-size: 3rem;
   }
 
   .welcome-feature {
     flex-direction: column;
     text-align: center;
+    padding: 1.25rem;
+  }
+
+  .welcome-feature svg {
+    font-size: 1.75rem;
+  }
+
+  .welcome-feature h4 {
+    font-size: 1.1rem;
+  }
+
+  .welcome-feature p {
+    font-size: 0.85rem;
+  }
+
+  .welcome-button {
+    padding: 0.875rem 1.5rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .welcome-content {
+    padding: 1.5rem 1rem;
+  }
+
+  .welcome-title {
+    font-size: 1.5rem;
+  }
+
+  .welcome-icon {
+    font-size: 2.5rem;
   }
 }
 

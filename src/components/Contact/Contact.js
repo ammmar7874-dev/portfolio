@@ -31,19 +31,19 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       label: 'Email',
-      value: 'ammar@example.com',
-      link: 'mailto:ammar@example.com',
+      value: 'hamza.arshad.dev@gmail.com',
+      link: 'mailto:hamza.arshad.dev@gmail.com',
     },
     {
       icon: FaPhone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+36 20 123 4567',
+      link: 'tel:+36201234567',
     },
     {
       icon: FaMapMarkerAlt,
       label: 'Location',
-      value: 'Available Worldwide',
+      value: 'Budapest, Hungary',
       link: null,
     },
   ];
@@ -80,7 +80,8 @@ const Contact = () => {
               <h3>Let's Connect</h3>
               <p>
                 I'm always open to discussing new projects, creative ideas, or opportunities
-                to be part of your visions. Feel free to reach out!
+                to be part of your visions. Based in Budapest, Hungary, I'm available for 
+                remote work and local collaborations. Feel free to reach out!
               </p>
               <div className="contact-info-list">
                 {contactInfo.map((info, index) => (
